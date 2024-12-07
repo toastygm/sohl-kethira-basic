@@ -6,6 +6,11 @@
 This module provides the necessary items, actors, and assets needed to play in the
 HârnWorld setting for HârnMaster Kethira.
 
+**NOTE**: This module provides the basic skills, spells, sunsigns, gods, etc., that are part of the
+HârnWorld setting. However, none of the documentation of any of those items are included herein. In order
+to effectively play using this module, you will need to purchase the
+[HarnMaster Kethira](https://www.kelestia.com/harnmaster) hardback or PDF, availabe from Kelestia.com.
+
 # Credits
 
 This module is made possible by the hard work of the people at Kelestia Productions
