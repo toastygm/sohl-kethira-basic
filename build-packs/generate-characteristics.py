@@ -8,6 +8,7 @@ from mergedeep import merge
 import re
 
 parser = argparse.ArgumentParser()
+parser.add_argument("dataDir", help="folder where data files are located")
 parser.add_argument("outputDir", help="folder where generated files should be placed")
 args = parser.parse_args()
 
@@ -20,7 +21,7 @@ stats = {
     "lastModifiedBy": "TMJsvJWT6ytpHZ0M",
 }
 
-with open("./data/traits.yaml", "r", encoding="utf8") as infile:
+with open(f"{args.dataDir}/traits.yaml", "r", encoding="utf8") as infile:
     traitsData = yaml.safe_load(infile)
 
 for trait in traitsData:
@@ -65,7 +66,7 @@ for trait in traitsData:
         json.dump(out, outfile, indent=2, ensure_ascii=False)
 
 
-with open("./data/skills.yaml", "r", encoding="utf8") as infile:
+with open(f"{args.dataDir}/skills.yaml", "r", encoding="utf8") as infile:
     skillsData = yaml.safe_load(infile)
 
 for skill in skillsData:
@@ -117,7 +118,7 @@ for skill in skillsData:
     with open(pname, "w", encoding="utf8") as outfile:
         json.dump(out, outfile, indent=2, ensure_ascii=False)
 
-with open("./data/folders.yaml", "r", encoding="utf8") as infile:
+with open(f"{args.dataDir}/folders.yaml", "r", encoding="utf8") as infile:
     foldersData = yaml.safe_load(infile)
 
 for folder in foldersData:

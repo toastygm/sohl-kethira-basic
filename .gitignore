@@ -33,16 +33,15 @@ jspm_packages/
 
 # Build files
 build/
+_source/
+venv/
+/packs
 
 # Distrubution files
 dist/
 
 # Package builds
 package/
-
-# LevelDB Files
-packs/
-!packs/generate
 
 # Hidden files
 nogit/
