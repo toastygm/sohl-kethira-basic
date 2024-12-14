@@ -7,6 +7,7 @@ from unidecode import unidecode
 import re
 
 parser = argparse.ArgumentParser()
+parser.add_argument("dataDir", help="folder where data files are located")
 parser.add_argument("outputDir", help="folder where generated files should be placed")
 args = parser.parse_args()
 
@@ -19,7 +20,7 @@ stats = {
     "lastModifiedBy": "TMJsvJWT6ytpHZ0M",
 }
 
-with open("./data/folders.yaml", "r", encoding="utf8") as infile:
+with open(f"{args.dataDir}/folders.yaml", "r", encoding="utf8") as infile:
     foldersData = yaml.safe_load(infile)
 
 for folder in foldersData:
@@ -38,6 +39,7 @@ for folder in foldersData:
         "color": folder["color"],
         "flags": {},
         "_stats": stats,
+        "ownership": {"default": 3},
         "_key": "!folders!" + folder["id"],
     }
     with open(pname, "w", encoding="utf8") as outfile:
