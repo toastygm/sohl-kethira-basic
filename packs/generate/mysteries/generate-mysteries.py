@@ -45,11 +45,11 @@ for phil in philosophiesData:
             "category": phil["category"],
         },
         "effects": phil["effects"],
+        "ownership": {"default": 3},
         "flags": phil["flags"],
         "_stats": stats,
         "folder": phil["folderId"],
         "sort": 0,
-        "ownership": {"default": 0, "TMJsvJWT6ytpHZ0M": 3},
     }
     for ni in phil["nestedItems"]:
         nestedItem = {
@@ -67,6 +67,7 @@ for phil in philosophiesData:
                 "abbrev": ni["abbrev"],
             },
             "effects": ni["effects"],
+            "ownership": {"default": 3},
             "flags": ni["flags"],
         }
         out["system"]["nestedItems"].append(nestedItem)
@@ -110,11 +111,11 @@ for mysticalability in mysticalabilitiesData:
             },
         },
         "effects": mysticalability["effects"],
+        "ownership": {"default": 3},
         "flags": mysticalability["flags"],
         "_stats": stats,
         "folder": mysticalability["folderId"],
         "sort": 0,
-        "ownership": {"default": 0, "TMJsvJWT6ytpHZ0M": 3},
     }
     with open(pname, "w", encoding="utf8") as outfile:
         json.dump(out, outfile, indent=2, ensure_ascii=False)
@@ -153,11 +154,11 @@ for mysticalability in mysticalabilitiesData:
 #             },
 #         },
 #         "effects": mystery["effects"],
+#         "ownership": {"default": 3},
 #         "flags": mystery["flags"],
 #         "_stats": stats,
 #         "folder": mystery["folderId"],
 #         "sort": 0,
-#         "ownership": {"default": 0, "TMJsvJWT6ytpHZ0M": 3},
 #     }
 #     with open(pname, "w", encoding="utf8") as outfile:
 #         json.dump(out, outfile, indent=2, ensure_ascii=False)

@@ -8,7 +8,7 @@ mkdir build
 python3 ./generate-$PACK.py build
 if [ $? -eq 0 ]; then
     [ -d unique -a ! -z "$( ls -A $PWD/unique/*.json 2>/dev/null )" ] && cp unique/*.json build
-    fvtt package pack -n $PACK -v --type Module --id sohl-kethira-basic -t $PACKTYPE --in build --out ../..
+    fvtt package pack -n $PACK -v --type Module --id sohl-kethira-basic -t $PACKTYPE --in build --out ..
 else
     echo -e "\033[0;31mERROR:\033[0m Build Failed!!"
     rm -rf build
