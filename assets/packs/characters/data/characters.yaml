@@ -6,74 +6,74 @@
     bioImage: systems/sohl/assets/silhouette/character-bioimage.webp
     description: |-
       <table style="user-select:text;width:95%;color:#191813;font-size:13px" border="1">
-      <tbody style="box-sizing:border-box;user-select:text">
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Apparent Age</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tbody>
+      <tr>
+      <td><strong><span>Apparent Age</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Culture</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tr>
+      <td><strong><span>Culture</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Social Class</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tr>
+      <td><strong><span>Social Class</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Height</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tr>
+      <td><strong><span>Height</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Frame</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tr>
+      <td><strong><span>Frame</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Weight</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tr>
+      <td><strong><span>Weight</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Appearance/Comeliness</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tr>
+      <td><strong><span>Appearance/Comeliness</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Hair Color</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tr>
+      <td><strong><span>Hair Color</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Eye Color</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tr>
+      <td><strong><span>Eye Color</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:16px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Voice</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+      <tr>
+      <td><strong><span>Voice</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:23px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong>Obvious Medical Traits</strong><span style="box-sizing:border-box;user-select:text"><br style="box-sizing:border-box;user-select:text" /></span></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"><span style="box-sizing:border-box;user-select:text"> </span></td>
+      <tr>
+      <td><strong>Obvious Medical Traits</strong><span><br /></span></td>
+      <td><span> </span></td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:23px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong>Apparent Occupation</strong><span style="box-sizing:border-box;user-select:text"><br style="box-sizing:border-box;user-select:text" /></span></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"><span style="box-sizing:border-box;user-select:text"> </span></td>
+      <tr>
+      <td><strong>Apparent Occupation</strong><span><br /></span></td>
+      <td><span> </span></td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:23px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong>Apparent Wealth</strong><span style="box-sizing:border-box;user-select:text"><br style="box-sizing:border-box;user-select:text" /></span></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"><span style="box-sizing:border-box;user-select:text"> </span></td>
+      <tr>
+      <td><strong>Apparent Wealth</strong><span><br /></span></td>
+      <td><span> </span></td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:23px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong>Weapons</strong><span style="box-sizing:border-box;user-select:text"><br style="box-sizing:border-box;user-select:text" /></span></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"><span style="box-sizing:border-box;user-select:text"> </span></td>
+      <tr>
+      <td><strong>Weapons</strong><span><br /></span></td>
+      <td><span> </span></td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:23px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong><span style="box-sizing:border-box;user-select:text">Armour</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"> </td>
+      <tr>
+      <td><strong><span>Armour</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:23px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong><span style="box-sizing:border-box;user-select:text">Companions</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"> </td>
+      <tr>
+      <td><strong><span>Companions</span></strong></td>
+      <td> </td>
       </tr>
-      <tr style="box-sizing:border-box;user-select:text;height:23px">
-      <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong><span style="box-sizing:border-box;user-select:text">Other obvious features</span></strong></td>
-      <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"> </td>
+      <tr>
+      <td><strong><span>Other obvious features</span></strong></td>
+      <td> </td>
       </tr>
       </tbody>
       </table>
@@ -82,40 +82,40 @@
       <table style="width:95%" border="1">
       <tbody>
       <tr>
-      <td style="width:140px"><strong>Birthdate</strong></td>
-      <td style="width:435px"> </td>
+      <td><strong>Birthdate</strong></td>
+      <td> </td>
       </tr>
       <tr>
-      <td style="width:140px"><strong>Birthplace</strong></td>
-      <td style="width:435px"> </td>
+      <td><strong>Birthplace</strong></td>
+      <td> </td>
       </tr>
       <tr>
-      <td style="width:140px"><strong>Sibling Rank</strong></td>
-      <td style="width:435px">x of y</td>
+      <td><strong>Sibling Rank</strong></td>
+      <td>x of y</td>
       </tr>
       <tr>
-      <td style="width:140px"><strong>Parent(s)</strong></td>
-      <td style="width:435px"> </td>
+      <td><strong>Parent(s)</strong></td>
+      <td> </td>
       </tr>
       <tr>
-      <td style="width:140px"><strong>Parent Affiliation</strong></td>
-      <td style="width:435px"> </td>
+      <td><strong>Parent Affiliation</strong></td>
+      <td> </td>
       </tr>
       <tr>
-      <td style="width:140px"><strong>Estrangement</strong></td>
-      <td style="width:435px"> </td>
+      <td><strong>Estrangement</strong></td>
+      <td> </td>
       </tr>
       <tr>
-      <td style="width:140px"><strong>Clanhead</strong></td>
-      <td style="width:435px"> </td>
+      <td><strong>Clanhead</strong></td>
+      <td> </td>
       </tr>
       <tr>
-      <td style="width:140px"><strong>Medical Traits</strong></td>
-      <td style="width:435px"> </td>
+      <td><strong>Medical Traits</strong></td>
+      <td> </td>
       </tr>
       <tr>
-      <td style="width:140px"><strong>Psyche Traits</strong></td>
-      <td style="width:435px"> </td>
+      <td><strong>Psyche Traits</strong></td>
+      <td> </td>
       </tr>
       </tbody>
       </table>
@@ -332,6 +332,6 @@
       system:
         quantity: 1
   effects: []
-  folder: null
+  folder: J6VZmyYIePnhutut
   ownership:
     default: 3

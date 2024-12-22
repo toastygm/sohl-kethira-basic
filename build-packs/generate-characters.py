@@ -15,8 +15,6 @@ parser.add_argument("dataDir", help="folder where data files are located")
 parser.add_argument("outputDir", help="folder where generated files should be placed")
 args = parser.parse_args()
 
-import copy
-
 class MaxDepthExceededError(Exception):
     """Exception raised when recursion exceeds the maximum allowed depth."""
     pass
@@ -29,6 +27,10 @@ def deep_replace(dict1, dict2, max_depth=10):
     def recursive_replace(d1, d2, depth):
         if depth > max_depth:
             raise MaxDepthExceededError(f"Maximum recursion depth of {max_depth} exceeded.")
+        if not d1:
+            return copy.deepcopy(d2)
+        if not d2:
+            return copy.deepcopy(d1)
         for key, value in d2.items():
             if key in d1:
                 if isinstance(value, dict) and isinstance(d1[key], dict):
@@ -44,7 +46,8 @@ def deep_replace(dict1, dict2, max_depth=10):
     # Create a deep copy of dict1
     result = copy.deepcopy(dict1)
     # Perform the deep replace with depth tracking
-    recursive_replace(result, dict2, depth=1)
+    if dict2:
+        recursive_replace(result, dict2, depth=1)
     return result
 
 def randId():
@@ -80,9 +83,6 @@ def get_item(name, type, ary):
     return None
 
 items = []
-# Load local packs first (so they override any standard Items
-read_json_files_to_dict("build/characteristics", items)
-read_json_files_to_dict("build/mysteries", items)
 # Load all standard SoHL Items
 read_json_files_to_dict("../../Song-of-Heroic-Lands-FoundryVTT/build-packs/legendary/build/leg-characteristics", items)
 read_json_files_to_dict("../../Song-of-Heroic-Lands-FoundryVTT/build-packs/legendary/build/leg-mysteries", items)
@@ -110,25 +110,34 @@ for char in charsData:
     pname = args.outputDir + "/" + fname
     actorid = char["id"]
     actorkey = f"!actors!{actorid}"
-    del char["id"]
     
-    out = dict(char)
+    out = copy.deepcopy(char)
+    del out["id"]
+    if "metadata" in out:
+        del out["metadata"]
     out["_id"] = actorid
     out["_key"] = actorkey
-    out["items"] = []
-    for itemdesc in char["items"]:
+    itemary = []
+    for itemdesc in out.get("items", []):
         itemid = randId()
         itemkey = f"!actors.items!{actorid}.{itemid}"
         result = {}
         if itemdesc["name"] and itemdesc["type"]:
             result = get_item(itemdesc["name"], itemdesc["type"], items)
         else:
-            raise ValueError(f"Item with name {name} of type {type} not found")
-        newitem = deep_replace(result, itemdesc)
+            raise ValueError(f"Name and type are required, actor={out["name"]}, name={name}, type={type}")
+        newitem = {}
+        if result:
+            newitem = deep_replace(result, itemdesc)
+        else:
+            newitem = copy.deepcopy(itemdesc)
         newitem["_id"] = itemid
         newitem["_key"] = itemkey
-        out["items"].append(newitem)
-
+        if newitem.get("rename", ""):
+            newitem["name"] = newitem["rename"]
+            del newitem["rename"]
+        itemary.append(newitem)
+    out["items"] = itemary
     with open(pname, "w", encoding="utf8") as outfile:
         json.dump(out, outfile, indent=2, ensure_ascii=False)
 
