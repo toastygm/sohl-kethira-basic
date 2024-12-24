@@ -84,6 +84,8 @@ def get_item(name, type, ary):
 
 items = []
 # Load all standard SoHL Items
+read_json_files_to_dict("build/characteristics", items)
+read_json_files_to_dict("build/mysteries", items)
 read_json_files_to_dict("../../Song-of-Heroic-Lands-FoundryVTT/build-packs/legendary/build/leg-characteristics", items)
 read_json_files_to_dict("../../Song-of-Heroic-Lands-FoundryVTT/build-packs/legendary/build/leg-mysteries", items)
 read_json_files_to_dict("../../Song-of-Heroic-Lands-FoundryVTT/build-packs/legendary/build/leg-possessions", items)
