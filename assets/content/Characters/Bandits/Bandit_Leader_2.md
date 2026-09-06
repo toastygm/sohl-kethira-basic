@@ -16,22 +16,20 @@ social:
   station: ""
   class: "Free"
   society: "Palithane"
-traits:
+data:
   gender: unknown
   age: 31
   birthday: 688/2/1
-  height:
-    m: 1.85
-  weight:
-    kg: 78.02
-  build:
-    frame: medium
+  height: 1.85
+  weight: 78.02
+  frame: medium
   appearance:
     eye_color: green
     hair_color: blonde
     skin_color: light
     complexion: fair
-    extra_features: [a scar across the bridge of the nose]
+    extra_features:
+      - a scar across the bridge of the nose
 sohl:
   archetype: 1
   body:

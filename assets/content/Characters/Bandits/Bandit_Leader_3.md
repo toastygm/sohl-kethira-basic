@@ -16,22 +16,20 @@ social:
   station: ""
   class: "Free"
   society: "Palithane"
-traits:
+data:
   gender: unknown
   age: 29
   birthday: 690/10/20
-  height:
-    m: 1.85
-  weight:
-    kg: 77.11
-  build:
-    frame: medium
+  height: 1.85
+  weight: 77.11
+  frame: medium
   appearance:
     eye_color: hazel
     hair_color: brown
     skin_color: light
     complexion: fair
-    extra_features: [a tattoo of a serpent on the back]
+    extra_features:
+      - a tattoo of a serpent on the back
 sohl:
   archetype: 1
   body:

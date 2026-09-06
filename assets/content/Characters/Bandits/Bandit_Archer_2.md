@@ -16,22 +16,20 @@ social:
   station: ""
   class: "Free"
   society: "Palithane"
-traits:
+data:
   gender: unknown
   age: 29
   birthday: 690/8/22
-  height:
-    m: 1.78
-  weight:
-    kg: 71.67
-  build:
-    frame: medium
+  height: 1.78
+  weight: 71.67
+  frame: medium
   appearance:
     eye_color: brown
     hair_color: black
     skin_color: light
     complexion: fair
-    extra_features: [a scar on the right side of the face]
+    extra_features:
+      - a scar on the right side of the face
 sohl:
   archetype: 1
   body:

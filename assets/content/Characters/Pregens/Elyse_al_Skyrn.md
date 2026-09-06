@@ -16,16 +16,13 @@ social:
   station: ""
   class: ""
   society: ""
-traits:
+data:
   gender: unknown
   age: 26
   birthday: 693/11/25
-  height:
-    m: 1.68
-  weight:
-    kg: 58.97
-  build:
-    frame: medium
+  height: 1.68
+  weight: 58.97
+  frame: medium
   appearance:
     eye_color: brown
     hair_color: brown

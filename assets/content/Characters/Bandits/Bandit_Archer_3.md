@@ -16,22 +16,20 @@ social:
   station: ""
   class: "Free"
   society: "Palithane"
-traits:
+data:
   gender: unknown
   age: 28
   birthday: 691/1/26
-  height:
-    m: 1.8
-  weight:
-    kg: 76.2
-  build:
-    frame: medium
+  height: 1.8
+  weight: 76.2
+  frame: medium
   appearance:
     eye_color: brown
     hair_color: black
     skin_color: light
     complexion: fair
-    extra_features: [a scar running down the right leg]
+    extra_features:
+      - a scar running down the right leg
 sohl:
   archetype: 1
   body:

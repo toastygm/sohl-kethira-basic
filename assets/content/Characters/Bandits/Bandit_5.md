@@ -16,22 +16,21 @@ social:
   station: ""
   class: "Free"
   society: "Palithane"
-traits:
+data:
   gender: unknown
   age: 43
   birthday: 676/12/5
-  height:
-    m: 1.83
-  weight:
-    kg: 75.75
-  build:
-    frame: medium
+  height: 1.83
+  weight: 75.75
+  frame: medium
   appearance:
     eye_color: brown
     hair_color: black
     skin_color: light
     complexion: fair
-    extra_features: [pixie-style cut hair, a tattoo of a horse on the thigh]
+    extra_features:
+      - pixie-style cut hair
+      - a tattoo of a horse on the thigh
 sohl:
   archetype: 100
   body:
