@@ -16,16 +16,13 @@ social:
   station: ""
   class: "Free"
   society: "Palithane"
-traits:
+data:
   gender: unknown
   age: 29
   birthday: 690/4/26
-  height:
-    m: 1.68
-  weight:
-    kg: 58.97
-  build:
-    frame: slight
+  height: 1.68
+  weight: 58.97
+  frame: slight
   appearance:
     eye_color: brown
     hair_color: black

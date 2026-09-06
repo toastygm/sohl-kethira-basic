@@ -16,22 +16,20 @@ social:
   station: ""
   class: "Free"
   society: "Palithane"
-traits:
+data:
   gender: male
   age: 25
   birthday: 694/9/10
-  height:
-    m: 1.78
-  weight:
-    kg: 76.2
-  build:
-    frame: large
+  height: 1.78
+  weight: 76.2
+  frame: large
   appearance:
     eye_color: brown
     hair_color: black
     skin_color: light
     complexion: fair
-    extra_features: [side braid hair]
+    extra_features:
+      - side braid hair
 sohl:
   archetype: 100
   body:

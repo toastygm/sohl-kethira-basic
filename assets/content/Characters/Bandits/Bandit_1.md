@@ -16,22 +16,20 @@ social:
   station: ""
   class: "Free"
   society: "Palithane"
-traits:
+data:
   gender: male
   age: 41
   birthday: 678/1/7
-  height:
-    m: 1.73
-  weight:
-    kg: 65.77
-  build:
-    frame: medium
+  height: 1.73
+  weight: 65.77
+  frame: medium
   appearance:
     eye_color: brown
     hair_color: black
     skin_color: olive
     complexion: fair
-    extra_features: [hair parted down the middle]
+    extra_features:
+      - hair parted down the middle
 sohl:
   archetype: 100
   body:

@@ -16,16 +16,13 @@ social:
   station: ""
   class: ""
   society: ""
-traits:
+data:
   gender: unknown
   age: 0
   birthday: 720/1/1
-  height:
-    m: 0
-  weight:
-    kg: 0
-  build:
-    frame: medium
+  height: 0
+  weight: 0
+  frame: medium
   appearance:
     eye_color: brown
     hair_color: brown
