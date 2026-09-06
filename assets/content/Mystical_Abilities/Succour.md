@@ -14,12 +14,13 @@ pack: mysteries
 sohl:
   kbcat: null
   archetype: 0
-  assocSkillCode: pvarism
-  assocAffiliationCode: fyvria
-  levelBase: 5
-  masteryLevelBase: 0
-  charges:
-    value: null
-    max: null
+  system:
+    assocSkillCode: pvarism
+    assocAffiliationCode: fyvria
+    masteryLevelBase: 0
+    levelBase: 5
+    charges:
+      value: null
+      max: null
 packFolder: fyvria
 ---

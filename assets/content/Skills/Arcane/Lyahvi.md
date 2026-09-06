@@ -14,13 +14,14 @@ pack: characteristics
 sohl:
   kbcat: arcane
   archetype: 0
-  skillBaseFormula: "sb(attr.aur, attr.rea)"
-  combatCategory: none
-  parentSkillCode: ""
-  initSkillMult: 0
-  masteryLevelBase: 0
-  improveFlag: false
-  impairedByRoles:
-    - vital
+  system:
+    skillBaseFormula: sb(attr.aur, attr.rea)
+    masteryLevelBase: 0
+    improveFlag: false
+    combatCategory: none
+    parentSkillCode: ""
+    initSkillMult: 0
+    impairedByRoles:
+      - vital
 packFolder: esoteric
 ---

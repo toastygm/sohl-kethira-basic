@@ -14,12 +14,13 @@ pack: mysteries
 sohl:
   kbcat: null
   archetype: 0
-  assocSkillCode: pvarism
-  assocAffiliationCode: lyahvi
-  levelBase: 2
-  masteryLevelBase: 0
-  charges:
-    value: null
-    max: null
+  system:
+    assocSkillCode: pvarism
+    assocAffiliationCode: lyahvi
+    masteryLevelBase: 0
+    levelBase: 2
+    charges:
+      value: null
+      max: null
 packFolder: lyahvi
 ---

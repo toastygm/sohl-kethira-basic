@@ -20,49 +20,6 @@ sohl:
     wil: 1d6+9
     rea: 1d6+10
     cre: 1d6+13
-  body:
-    structure:
-      zones:
-        - name: Form
-          shortcode: formzone
-          probWeight: 3
-      parts:
-        - name: Form
-          shortcode: formpart
-          bodyZoneCode: formzone
-          roles:
-            - vital
-            - core
-          canHoldItem: false
-          probWeight: 10
-      locations:
-        - name: Form
-          shortcode: formloc
-          bodyPartCode: formpart
-          bleedingSusceptibility: none
-          amputability: none
-          shockValue: 0
-          probWeight: 10
-          protectionBase:
-            blunt: 0
-            edged: 0
-            piercing: 0
-            fire: 0
-    weight:
-      base: 10
-      calc: "10"
-    reachBase: 0
-    bodyScaleBase: 0.2
-    personalFatigue: enc + 5
-  currentMoveMedium: aerial
-  movementProfiles:
-    - medium: aerial
-      feetPerRound: 85
-      leaguesPerWatch: 5
-      encumbrance: floor(wt/4)
-      strMod: -5 * floor((str - 10) / 2)
-      disabled: false
-  defaultCombatGroup: null
   items:
     - { shortcode: aur, type: attribute, system: { scoreBase: 19 } }
     - { shortcode: wil, type: attribute, system: { scoreBase: 12 } }
@@ -71,6 +28,49 @@ sohl:
     - { shortcode: init, type: skill, system: { masteryLevelBase: 65 } }
     - { shortcode: sprt, type: mysticalability, system: { masteryLevelBase: 80 } }
     - { shortcode: dge, type: skill, system: { masteryLevelBase: 70 } }
+  system:
+    body:
+      structure:
+        zones:
+          - name: Form
+            shortcode: formzone
+            probWeight: 3
+        parts:
+          - name: Form
+            shortcode: formpart
+            bodyZoneCode: formzone
+            roles:
+              - vital
+              - core
+            canHoldItem: false
+            probWeight: 10
+        locations:
+          - name: Form
+            shortcode: formloc
+            bodyPartCode: formpart
+            bleedingSusceptibility: none
+            amputability: none
+            shockValue: 0
+            probWeight: 10
+            protectionBase:
+              blunt: 0
+              edged: 0
+              piercing: 0
+              fire: 0
+      weight:
+        base: 10
+        calc: "10"
+      reachBase: 0
+      bodyScaleBase: 0.2
+      personalFatigue: enc + 5
+    currentMoveMedium: aerial
+    movementProfiles:
+      - medium: aerial
+        feetPerRound: 85
+        leaguesPerWatch: 5
+        encumbrance: floor(wt/4)
+        strMod: -5 * floor((str - 10) / 2)
+        disabled: false
 ---
 
 # Appearance {#appearance}

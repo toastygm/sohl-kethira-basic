@@ -14,12 +14,11 @@ pack: mysteries
 sohl:
   kbcat: null
   archetype: 0
-  assocSkillCode: null
-  assocAffiliationCode: null
-  levelBase: 0
-  masteryLevelBase: 0
-  charges:
-    value: null
-    max: null
+  system:
+    masteryLevelBase: 0
+    levelBase: 0
+    charges:
+      value: null
+      max: null
 packFolder: arcanetalents
 ---

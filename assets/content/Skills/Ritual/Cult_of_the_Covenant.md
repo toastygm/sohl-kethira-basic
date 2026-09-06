@@ -14,13 +14,14 @@ pack: characteristics
 sohl:
   kbcat: ritual
   archetype: 0
-  skillBaseFormula: "sb(attr.wil, attr.rea)"
-  combatCategory: none
-  parentSkillCode: ""
-  initSkillMult: 0
-  masteryLevelBase: 0
-  improveFlag: false
-  impairedByRoles:
-    - vital
+  system:
+    skillBaseFormula: sb(attr.wil, attr.rea)
+    masteryLevelBase: 0
+    improveFlag: false
+    combatCategory: none
+    parentSkillCode: ""
+    initSkillMult: 0
+    impairedByRoles:
+      - vital
 packFolder: rituals
 ---

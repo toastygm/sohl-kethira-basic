@@ -25,260 +25,6 @@ sohl:
     cre: 1d4+2
     emp: 1d4+4
     elo: 1d4
-  body:
-    structure:
-      zones:
-        - name: Head
-          shortcode: headzone
-          probWeight: 4
-        - name: Arms
-          shortcode: armszone
-          probWeight: 8
-        - name: Torso
-          shortcode: torsozone
-          probWeight: 16
-        - name: Legs
-          shortcode: legszone
-          probWeight: 12
-      parts:
-        - name: Head
-          shortcode: headpart
-          bodyZoneCode: headzone
-          roles:
-            - vital
-          canHoldItem: false
-          probWeight: 10
-        - name: Right Arm
-          shortcode: rarmpart
-          bodyZoneCode: armszone
-          roles:
-            - manipulator
-          canHoldItem: true
-          probWeight: 2
-        - name: Left Arm
-          shortcode: larmpart
-          bodyZoneCode: armszone
-          roles:
-            - manipulator
-          canHoldItem: true
-          probWeight: 2
-        - name: Torso
-          shortcode: torsopart
-          bodyZoneCode: torsozone
-          roles:
-            - core
-          canHoldItem: false
-          probWeight: 10
-        - name: Right Leg
-          shortcode: rlegpart
-          bodyZoneCode: legszone
-          roles:
-            - locomotor
-          canHoldItem: false
-          probWeight: 3
-        - name: Left Leg
-          shortcode: llegpart
-          bodyZoneCode: legszone
-          roles:
-            - locomotor
-          canHoldItem: false
-          probWeight: 3
-      locations:
-        - name: Head
-          shortcode: headloc
-          bodyPartCode: headpart
-          bleedingSusceptibility: medium
-          amputability: none
-          shockValue: 5
-          probWeight: 8
-          protectionBase:
-            blunt: 21
-            edged: 22
-            piercing: 21
-            fire: 23
-        - name: Neck
-          shortcode: neckloc
-          bodyPartCode: headpart
-          bleedingSusceptibility: high
-          amputability: low
-          shockValue: 5
-          probWeight: 2
-          protectionBase:
-            blunt: 19
-            edged: 20
-            piercing: 19
-            fire: 21
-        - name: Right Upper Arm
-          shortcode: rupaloc
-          bodyPartCode: rarmpart
-          bleedingSusceptibility: medium
-          amputability: medium
-          shockValue: 3
-          probWeight: 5
-          protectionBase: &a1
-            blunt: 21
-            edged: 22
-            piercing: 21
-            fire: 23
-        - name: Right Lower Arm
-          shortcode: rfraloc
-          bodyPartCode: rarmpart
-          bleedingSusceptibility: low
-          amputability: medium
-          shockValue: 1
-          probWeight: 3
-          protectionBase: &a2
-            blunt: 20
-            edged: 21
-            piercing: 20
-            fire: 22
-        - name: Right Hand
-          shortcode: rhandloc
-          bodyPartCode: rarmpart
-          bleedingSusceptibility: none
-          amputability: high
-          shockValue: 2
-          probWeight: 2
-          protectionBase: &a3
-            blunt: 19
-            edged: 20
-            piercing: 19
-            fire: 21
-        - name: Left Upper Arm
-          shortcode: lupaloc
-          bodyPartCode: larmpart
-          bleedingSusceptibility: medium
-          amputability: medium
-          shockValue: 3
-          probWeight: 5
-          protectionBase: *a1
-        - name: Left Lower Arm
-          shortcode: lfraloc
-          bodyPartCode: larmpart
-          bleedingSusceptibility: low
-          amputability: medium
-          shockValue: 1
-          probWeight: 3
-          protectionBase: *a2
-        - name: Left Hand
-          shortcode: lhandloc
-          bodyPartCode: larmpart
-          bleedingSusceptibility: none
-          amputability: high
-          shockValue: 2
-          probWeight: 2
-          protectionBase: *a3
-        - name: Thorax
-          shortcode: thrxloc
-          bodyPartCode: torsopart
-          bleedingSusceptibility: medium
-          amputability: none
-          shockValue: 4
-          probWeight: 4
-          protectionBase:
-            blunt: 21
-            edged: 22
-            piercing: 21
-            fire: 23
-        - name: Abdomen
-          shortcode: abdmnloc
-          bodyPartCode: torsopart
-          bleedingSusceptibility: high
-          amputability: none
-          shockValue: 4
-          probWeight: 3
-          protectionBase:
-            blunt: 21
-            edged: 22
-            piercing: 21
-            fire: 23
-        - name: Pelvis
-          shortcode: plvisloc
-          bodyPartCode: torsopart
-          bleedingSusceptibility: medium
-          amputability: none
-          shockValue: 4
-          probWeight: 3
-          protectionBase:
-            blunt: 21
-            edged: 22
-            piercing: 21
-            fire: 23
-        - name: Right Upper Leg
-          shortcode: rthghloc
-          bodyPartCode: rlegpart
-          bleedingSusceptibility: medium
-          amputability: low
-          shockValue: 3
-          probWeight: 5
-          protectionBase: &a4
-            blunt: 21
-            edged: 22
-            piercing: 21
-            fire: 23
-        - name: Right Lower Leg
-          shortcode: rcalfloc
-          bodyPartCode: rlegpart
-          bleedingSusceptibility: low
-          amputability: medium
-          shockValue: 1
-          probWeight: 3
-          protectionBase: &a5
-            blunt: 20
-            edged: 21
-            piercing: 20
-            fire: 22
-        - name: Right Foot
-          shortcode: rfootloc
-          bodyPartCode: rlegpart
-          bleedingSusceptibility: none
-          amputability: high
-          shockValue: 2
-          probWeight: 2
-          protectionBase: &a6
-            blunt: 19
-            edged: 20
-            piercing: 19
-            fire: 21
-        - name: Left Upper Leg
-          shortcode: lthghloc
-          bodyPartCode: llegpart
-          bleedingSusceptibility: medium
-          amputability: low
-          shockValue: 3
-          probWeight: 5
-          protectionBase: *a4
-        - name: Left Lower Leg
-          shortcode: lcalfloc
-          bodyPartCode: llegpart
-          bleedingSusceptibility: low
-          amputability: medium
-          shockValue: 1
-          probWeight: 3
-          protectionBase: *a5
-        - name: Left Foot
-          shortcode: lfootloc
-          bodyPartCode: llegpart
-          bleedingSusceptibility: none
-          amputability: high
-          shockValue: 2
-          probWeight: 2
-          protectionBase: *a6
-    weight:
-      base: 7000
-      calc: "7000"
-    reachBase: 0
-    bodyScaleBase: 4.55
-    personalFatigue: enc + 5
-  currentMoveMedium: terrestrial
-  movementProfiles:
-    - medium: terrestrial
-      feetPerRound: 35
-      leaguesPerWatch: 5
-      encumbrance: floor(wt/4)
-      strMod: -5 * floor((str - 10) / 2)
-      disabled: false
-  defaultCombatGroup: null
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 50 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 40 } }
@@ -370,6 +116,260 @@ sohl:
               successLevelMod: 0
           traits:
             noBlock: true
+  system:
+    body:
+      structure:
+        zones:
+          - name: Head
+            shortcode: headzone
+            probWeight: 4
+          - name: Arms
+            shortcode: armszone
+            probWeight: 8
+          - name: Torso
+            shortcode: torsozone
+            probWeight: 16
+          - name: Legs
+            shortcode: legszone
+            probWeight: 12
+        parts:
+          - name: Head
+            shortcode: headpart
+            bodyZoneCode: headzone
+            roles:
+              - vital
+            canHoldItem: false
+            probWeight: 10
+          - name: Right Arm
+            shortcode: rarmpart
+            bodyZoneCode: armszone
+            roles:
+              - manipulator
+            canHoldItem: true
+            probWeight: 2
+          - name: Left Arm
+            shortcode: larmpart
+            bodyZoneCode: armszone
+            roles:
+              - manipulator
+            canHoldItem: true
+            probWeight: 2
+          - name: Torso
+            shortcode: torsopart
+            bodyZoneCode: torsozone
+            roles:
+              - core
+            canHoldItem: false
+            probWeight: 10
+          - name: Right Leg
+            shortcode: rlegpart
+            bodyZoneCode: legszone
+            roles:
+              - locomotor
+            canHoldItem: false
+            probWeight: 3
+          - name: Left Leg
+            shortcode: llegpart
+            bodyZoneCode: legszone
+            roles:
+              - locomotor
+            canHoldItem: false
+            probWeight: 3
+        locations:
+          - name: Head
+            shortcode: headloc
+            bodyPartCode: headpart
+            bleedingSusceptibility: medium
+            amputability: none
+            shockValue: 5
+            probWeight: 8
+            protectionBase:
+              blunt: 21
+              edged: 22
+              piercing: 21
+              fire: 23
+          - name: Neck
+            shortcode: neckloc
+            bodyPartCode: headpart
+            bleedingSusceptibility: high
+            amputability: low
+            shockValue: 5
+            probWeight: 2
+            protectionBase:
+              blunt: 19
+              edged: 20
+              piercing: 19
+              fire: 21
+          - name: Right Upper Arm
+            shortcode: rupaloc
+            bodyPartCode: rarmpart
+            bleedingSusceptibility: medium
+            amputability: medium
+            shockValue: 3
+            probWeight: 5
+            protectionBase: &a1
+              blunt: 21
+              edged: 22
+              piercing: 21
+              fire: 23
+          - name: Right Lower Arm
+            shortcode: rfraloc
+            bodyPartCode: rarmpart
+            bleedingSusceptibility: low
+            amputability: medium
+            shockValue: 1
+            probWeight: 3
+            protectionBase: &a2
+              blunt: 20
+              edged: 21
+              piercing: 20
+              fire: 22
+          - name: Right Hand
+            shortcode: rhandloc
+            bodyPartCode: rarmpart
+            bleedingSusceptibility: none
+            amputability: high
+            shockValue: 2
+            probWeight: 2
+            protectionBase: &a3
+              blunt: 19
+              edged: 20
+              piercing: 19
+              fire: 21
+          - name: Left Upper Arm
+            shortcode: lupaloc
+            bodyPartCode: larmpart
+            bleedingSusceptibility: medium
+            amputability: medium
+            shockValue: 3
+            probWeight: 5
+            protectionBase: *a1
+          - name: Left Lower Arm
+            shortcode: lfraloc
+            bodyPartCode: larmpart
+            bleedingSusceptibility: low
+            amputability: medium
+            shockValue: 1
+            probWeight: 3
+            protectionBase: *a2
+          - name: Left Hand
+            shortcode: lhandloc
+            bodyPartCode: larmpart
+            bleedingSusceptibility: none
+            amputability: high
+            shockValue: 2
+            probWeight: 2
+            protectionBase: *a3
+          - name: Thorax
+            shortcode: thrxloc
+            bodyPartCode: torsopart
+            bleedingSusceptibility: medium
+            amputability: none
+            shockValue: 4
+            probWeight: 4
+            protectionBase:
+              blunt: 21
+              edged: 22
+              piercing: 21
+              fire: 23
+          - name: Abdomen
+            shortcode: abdmnloc
+            bodyPartCode: torsopart
+            bleedingSusceptibility: high
+            amputability: none
+            shockValue: 4
+            probWeight: 3
+            protectionBase:
+              blunt: 21
+              edged: 22
+              piercing: 21
+              fire: 23
+          - name: Pelvis
+            shortcode: plvisloc
+            bodyPartCode: torsopart
+            bleedingSusceptibility: medium
+            amputability: none
+            shockValue: 4
+            probWeight: 3
+            protectionBase:
+              blunt: 21
+              edged: 22
+              piercing: 21
+              fire: 23
+          - name: Right Upper Leg
+            shortcode: rthghloc
+            bodyPartCode: rlegpart
+            bleedingSusceptibility: medium
+            amputability: low
+            shockValue: 3
+            probWeight: 5
+            protectionBase: &a4
+              blunt: 21
+              edged: 22
+              piercing: 21
+              fire: 23
+          - name: Right Lower Leg
+            shortcode: rcalfloc
+            bodyPartCode: rlegpart
+            bleedingSusceptibility: low
+            amputability: medium
+            shockValue: 1
+            probWeight: 3
+            protectionBase: &a5
+              blunt: 20
+              edged: 21
+              piercing: 20
+              fire: 22
+          - name: Right Foot
+            shortcode: rfootloc
+            bodyPartCode: rlegpart
+            bleedingSusceptibility: none
+            amputability: high
+            shockValue: 2
+            probWeight: 2
+            protectionBase: &a6
+              blunt: 19
+              edged: 20
+              piercing: 19
+              fire: 21
+          - name: Left Upper Leg
+            shortcode: lthghloc
+            bodyPartCode: llegpart
+            bleedingSusceptibility: medium
+            amputability: low
+            shockValue: 3
+            probWeight: 5
+            protectionBase: *a4
+          - name: Left Lower Leg
+            shortcode: lcalfloc
+            bodyPartCode: llegpart
+            bleedingSusceptibility: low
+            amputability: medium
+            shockValue: 1
+            probWeight: 3
+            protectionBase: *a5
+          - name: Left Foot
+            shortcode: lfootloc
+            bodyPartCode: llegpart
+            bleedingSusceptibility: none
+            amputability: high
+            shockValue: 2
+            probWeight: 2
+            protectionBase: *a6
+      weight:
+        base: 7000
+        calc: "7000"
+      reachBase: 0
+      bodyScaleBase: 4.55
+      personalFatigue: enc + 5
+    currentMoveMedium: terrestrial
+    movementProfiles:
+      - medium: terrestrial
+        feetPerRound: 35
+        leaguesPerWatch: 5
+        encumbrance: floor(wt/4)
+        strMod: -5 * floor((str - 10) / 2)
+        disabled: false
 ---
 
 # Appearance {#appearance}
