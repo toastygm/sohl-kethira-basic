@@ -4,7 +4,7 @@ name:
   full: Bandit Leader 1
   aliases: []
 id: WN1Z4BNdEXWuSWNz
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: banditleader1
 slug: bandit-leader-1
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg

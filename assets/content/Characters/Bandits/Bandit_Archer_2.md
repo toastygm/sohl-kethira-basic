@@ -4,7 +4,7 @@ name:
   full: Bandit Archer 2
   aliases: []
 id: ZiazKvY6oIARxx3b
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: banditarcher2
 slug: bandit-archer-2
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg

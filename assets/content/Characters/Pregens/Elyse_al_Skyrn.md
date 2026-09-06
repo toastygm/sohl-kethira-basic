@@ -4,7 +4,7 @@ name:
   full: Elýsè al Skýrn
   aliases: []
 id: Hxxja9eO46kDimGg
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: elysealskyrn
 slug: elyse-al-skyrn
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg

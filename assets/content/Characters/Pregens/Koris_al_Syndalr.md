@@ -4,7 +4,7 @@ name:
   full: Kôris al Sýndalr
   aliases: []
 id: Nwxk1ehiccvUnhIZ
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: korisalsyndalr
 slug: koris-al-syndalr
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg

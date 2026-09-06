@@ -22,5 +22,5 @@ sohl:
   improveFlag: false
   impairedByRoles:
     - vital
-folder: 7ndtuoO1haJpQbgf
+packFolder: rituals
 ---

@@ -4,7 +4,7 @@ name:
   full: Chéleb al Rhýddyn
   aliases: []
 id: 0fPBy1GRPKfrjcs1
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: chelebalrhyddyn
 slug: cheleb-al-rhyddyn
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg
