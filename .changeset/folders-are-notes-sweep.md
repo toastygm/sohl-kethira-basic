@@ -15,11 +15,14 @@ packFolder: affiliations # was: folder: <16-char id>
 **Every folder keeps its authored `id`**, so a world already holding these
 folders goes on resolving them — this is a build change, not a world migration.
 
-**The defect this fixes.** This tree has no `journal-folders.yaml` at all, so
-the six item folders its documentation journals are filed in were declared by no
-journals pack — dangling references, silently. A folder now materialises in every
-pack that references it (HeroicLands/package-build#257), so the journals pack
-gets them without a second folder file to keep in step.
+**Five empty folders stop being shipped.** A folder now materialises in whatever
+pack references it (HeroicLands/package-build#257), so one that nothing
+references materialises nowhere: `Traits` (`characteristics`), `Philosophies`
+(`mysteries`), and `Pregens`, `Prototypes` and `Samples` (`characters`). All five
+were declared by the YAML and emitted as empty folders; none is named by a single
+note. Their notes keep the authored ids, so any of them reappears — same id, same
+colour, same place — the moment a note files itself there. Every other document
+in every pack is byte-identical.
 
 Requires the folder-note support in `@heroiclands/package-build`
 (HeroicLands/package-build#276).
