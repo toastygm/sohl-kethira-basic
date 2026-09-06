@@ -106,18 +106,34 @@ packs:
 # the site and the manifest do not stand or fall together — do not read a
 # change to one as licence to change the other.
 publish:
-    site: homepage
+    site: content
     manifests: { publish: false, consume: true }
 
-# Where the homepage is written. Only `out` is meaningful in `homepage` mode —
-# every other key here is fenced off — but `out` is required all the same and is
-# deliberately not defaulted: the directory is wiped on every run, and an unset
-# value would resolve to the repository root. `resolveOutputRoot` refuses that
-# rather than resolving it, which is why there is a `site:` block in a package
-# that publishes a single page. The path matches the sibling convention
-# (`sohl-thalorna`); the tree is a build artifact and is gitignored.
+# Where the site build writes, and how this repository frames what it publishes.
+# `out` is required in *both* modes and deliberately not defaulted: the
+# directory is wiped on every run, and an unset value would resolve to the
+# repository root, which `resolveOutputRoot` refuses rather than resolves. The
+# path matches the sibling convention (`sohl-thalorna`); the tree is a build
+# artifact and is gitignored. `publish.address` is absent, so the prefix is its
+# default `""` — this package's content *is* its site, so the tree mounts at the
+# package root and a page publishes at /kethira/<type>-<shortcode>/.
 site:
     out: site/content
+    # Every section this package publishes, so /kethira/<section>/ answers with
+    # a titled page rather than a directory listing. A section is a note's own
+    # `type` (`sectionOf`), not a directory name — `Characters/` and
+    # `Creatures/` are both `being` and land in one section — and a page is
+    # written into its section's directory, so a declared section's landing
+    # lists its own pages.
+    #
+    # Five sections, for the five published types: 224 `mysticalability`,
+    # 66 `skill`, 28 `being`, 28 `affiliation` and 24 `mystery`.
+    sections:
+        affiliation: { title: Affiliations }
+        being: { title: Beings }
+        mystery: { title: Mysteries }
+        mysticalability: { title: Mystical Abilities }
+        skill: { title: Skills }
 
 packageBuild:
     assets:
