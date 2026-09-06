@@ -107,7 +107,6 @@ packs:
 # change to one as licence to change the other.
 publish:
     site: content
-    manifests: { publish: false, consume: true }
 
 # Where the site build writes, and how this repository frames what it publishes.
 # `out` is required in *both* modes and deliberately not defaulted: the
