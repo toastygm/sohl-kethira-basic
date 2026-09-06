@@ -4,7 +4,7 @@ name:
   full: Bandit Archer 3
   aliases: []
 id: kaZVZSgYiMluKbD3
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: banditarcher3
 slug: bandit-archer-3
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg

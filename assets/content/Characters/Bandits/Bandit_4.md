@@ -4,7 +4,7 @@ name:
   full: Bandit 4
   aliases: []
 id: TNcBgsbpfb4Fv0C8
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: bandit4
 slug: bandit-4
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg

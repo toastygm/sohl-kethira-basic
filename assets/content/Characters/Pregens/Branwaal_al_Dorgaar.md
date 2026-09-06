@@ -4,7 +4,7 @@ name:
   full: Brànwâal al Dôrgaar
   aliases: []
 id: VfzFVeRATnKSMwzz
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: branwaalaldorgaar
 slug: branwaal-al-dorgaar
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg

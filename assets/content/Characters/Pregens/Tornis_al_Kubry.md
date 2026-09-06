@@ -4,7 +4,7 @@ name:
   full: Tórnis al Kúbrý
   aliases: []
 id: QgVdOPUTxTLxEvBf
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: tornisalkubry
 slug: tornis-al-kubry
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg

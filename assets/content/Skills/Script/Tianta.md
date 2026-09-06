@@ -24,5 +24,5 @@ sohl:
     - vital
     - core
     - manipulator
-folder: mvjb3irIVg3kk1HY
+packFolder: scripts
 ---

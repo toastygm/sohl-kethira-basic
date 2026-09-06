@@ -4,7 +4,7 @@ name:
   full: Bandit 5
   aliases: []
 id: JtqPjLbs12KX9K80
-folder: wDgcy5cLIaLoFogp
+packFolder: characters
 shortcode: bandit5
 slug: bandit-5
 img: systems/sohl/assets/icons/game-icons/delapouite/person.svg
