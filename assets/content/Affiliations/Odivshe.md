@@ -14,9 +14,10 @@ pack: mysteries
 sohl:
   kbcat: affiliation
   archetype: 0
-  society: ""
-  office: ""
-  title: ""
-  level: 1
+  system:
+    society: ""
+    office: ""
+    title: ""
+    level: 1
 packFolder: affiliations
 ---

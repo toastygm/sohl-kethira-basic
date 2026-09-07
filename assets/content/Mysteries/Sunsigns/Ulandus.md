@@ -14,12 +14,10 @@ pack: mysteries
 sohl:
   kbcat: sunsign
   archetype: 0
-  assocSkillCode: null
-  assocAffiliationCode: null
-  levelBase: null
-  charges:
-    value: null
-    max: null
+  system:
+    charges:
+      value: null
+      max: null
 effects:
   - name: "Ùlándus — Earth skills (+15 EML)"
     type: sohleffectdata

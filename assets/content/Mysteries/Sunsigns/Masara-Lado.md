@@ -14,12 +14,10 @@ pack: mysteries
 sohl:
   kbcat: sunsign
   archetype: 0
-  assocSkillCode: null
-  assocAffiliationCode: null
-  levelBase: null
-  charges:
-    value: null
-    max: null
+  system:
+    charges:
+      value: null
+      max: null
 effects:
   - name: "Masâra-Ládo — Earth skills (+10 EML)"
     type: sohleffectdata

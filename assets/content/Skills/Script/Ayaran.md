@@ -14,15 +14,16 @@ pack: characteristics
 sohl:
   kbcat: script
   archetype: 0
-  skillBaseFormula: "sb(attr.rea, attr.per)"
-  combatCategory: none
-  parentSkillCode: ""
-  initSkillMult: 0
-  masteryLevelBase: 0
-  improveFlag: false
-  impairedByRoles:
-    - vital
-    - core
-    - manipulator
+  system:
+    skillBaseFormula: sb(attr.rea, attr.per)
+    masteryLevelBase: 0
+    improveFlag: false
+    combatCategory: none
+    parentSkillCode: ""
+    initSkillMult: 0
+    impairedByRoles:
+      - vital
+      - core
+      - manipulator
 packFolder: scripts
 ---

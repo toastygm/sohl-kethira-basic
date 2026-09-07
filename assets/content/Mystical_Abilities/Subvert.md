@@ -14,12 +14,13 @@ pack: mysteries
 sohl:
   kbcat: null
   archetype: 0
-  assocSkillCode: pvarism
-  assocAffiliationCode: neutral
-  levelBase: 4
-  masteryLevelBase: 0
-  charges:
-    value: null
-    max: null
+  system:
+    assocSkillCode: pvarism
+    assocAffiliationCode: neutral
+    masteryLevelBase: 0
+    levelBase: 4
+    charges:
+      value: null
+      max: null
 packFolder: neutral
 ---
