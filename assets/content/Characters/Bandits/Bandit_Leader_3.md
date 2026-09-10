@@ -17,6 +17,7 @@ social:
   class: "Free"
   society: "Palithane"
 data:
+  templatePriority: 1
   gender: unknown
   age: 29
   birthday: 690/10/20
@@ -31,7 +32,6 @@ data:
     extra_features:
       - a tattoo of a serpent on the back
 sohl:
-  archetype: 1
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 13 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 10 } }

@@ -13,8 +13,9 @@ slug: umbath
 img: systems/sohl/assets/icons/game-icons/delapouite/gargoyle.svg
 portrait: null
 type: being
+data:
+  templatePriority: 0
 sohl:
-  archetype: 0
   attrRollFormula:
     aur: 1d6+16
     wil: 1d6+9

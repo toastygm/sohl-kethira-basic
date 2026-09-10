@@ -17,6 +17,7 @@ social:
   class: "Free"
   society: "Palithane"
 data:
+  templatePriority: 1
   gender: unknown
   age: 27
   birthday: 692/3/13
@@ -31,7 +32,6 @@ data:
     extra_features:
       - a scar on the left foot
 sohl:
-  archetype: 1
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 13 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 11 } }

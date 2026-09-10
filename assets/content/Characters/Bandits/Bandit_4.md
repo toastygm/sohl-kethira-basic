@@ -17,6 +17,7 @@ social:
   class: "Free"
   society: "Palithane"
 data:
+  templatePriority: 100
   gender: unknown
   age: 29
   birthday: 690/4/26
@@ -30,7 +31,6 @@ data:
     complexion: fair
     extra_features: []
 sohl:
-  archetype: 100
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 8 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 10 } }

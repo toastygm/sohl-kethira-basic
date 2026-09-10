@@ -12,8 +12,9 @@ slug: nolah
 img: systems/sohl/assets/icons/game-icons/lorc/spectre.svg
 portrait: null
 type: being
+data:
+  templatePriority: 0
 sohl:
-  archetype: 0
   attrRollFormula:
     str: 1d6+11
     end: 1d6+16

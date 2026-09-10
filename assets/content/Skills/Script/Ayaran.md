@@ -11,9 +11,10 @@ shortcode: ayaran
 type: skill
 subType: script
 pack: characteristics
+data:
+  templatePriority: 0
 sohl:
   kbcat: script
-  archetype: 0
   system:
     skillBaseFormula: sb(attr.rea, attr.per)
     masteryLevelBase: 0

@@ -17,6 +17,7 @@ social:
   class: "Free"
   society: "Palithane"
 data:
+  templatePriority: 1
   gender: unknown
   age: 29
   birthday: 690/8/22
@@ -31,7 +32,6 @@ data:
     extra_features:
       - a scar on the right side of the face
 sohl:
-  archetype: 1
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 12 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 13 } }
