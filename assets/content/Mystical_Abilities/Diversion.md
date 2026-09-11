@@ -11,9 +11,10 @@ shortcode: diversion
 type: mysticalability
 subType: arcaneincantation
 pack: mysteries
+data:
+  templatePriority: 0
 sohl:
   kbcat: null
-  archetype: 0
   system:
     assocSkillCode: pvarism
     assocAffiliationCode: savorya

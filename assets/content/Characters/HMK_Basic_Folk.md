@@ -17,6 +17,7 @@ social:
   class: ""
   society: ""
 data:
+  templatePriority: 100
   gender: unknown
   age: 0
   birthday: 720/1/1
@@ -30,7 +31,6 @@ data:
     complexion: fair
     extra_features: []
 sohl:
-  archetype: 100
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 10 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 10 } }

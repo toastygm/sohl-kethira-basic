@@ -11,9 +11,10 @@ shortcode: odivshe
 type: skill
 subType: mystical
 pack: characteristics
+data:
+  templatePriority: 0
 sohl:
   kbcat: arcane
-  archetype: 0
   system:
     skillBaseFormula: sb(attr.aur, attr.rea)
     masteryLevelBase: 0

@@ -11,9 +11,10 @@ shortcode: hex
 type: mysticalability
 subType: arcanetalent
 pack: mysteries
+data:
+  templatePriority: 0
 sohl:
   kbcat: null
-  archetype: 0
   system:
     masteryLevelBase: 0
     levelBase: 0

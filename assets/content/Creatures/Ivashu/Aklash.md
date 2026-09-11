@@ -10,8 +10,9 @@ slug: aklash
 img: systems/sohl/assets/icons/game-icons/skoll/troll.svg
 portrait: null
 type: being
+data:
+  templatePriority: 0
 sohl:
-  archetype: 0
   attrRollFormula:
     str: 1d6+21
     end: 1d6+15

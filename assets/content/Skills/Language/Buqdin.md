@@ -11,9 +11,10 @@ shortcode: buqdin
 type: skill
 subType: language
 pack: characteristics
+data:
+  templatePriority: 0
 sohl:
   kbcat: language
-  archetype: 0
   system:
     skillBaseFormula: sb(attr.elo, attr.rea)
     masteryLevelBase: 0

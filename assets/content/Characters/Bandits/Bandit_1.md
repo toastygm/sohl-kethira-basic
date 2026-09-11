@@ -17,6 +17,7 @@ social:
   class: "Free"
   society: "Palithane"
 data:
+  templatePriority: 100
   gender: male
   age: 41
   birthday: 678/1/7
@@ -31,7 +32,6 @@ data:
     extra_features:
       - hair parted down the middle
 sohl:
-  archetype: 100
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 11 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 14 } }
