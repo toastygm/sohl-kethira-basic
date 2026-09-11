@@ -11,9 +11,10 @@ shortcode: peleahn
 type: affiliation
 subType: arcanetradition
 pack: mysteries
+data:
+  templatePriority: 0
 sohl:
   kbcat: affiliation
-  archetype: 0
   system:
     society: ""
     office: ""

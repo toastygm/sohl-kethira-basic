@@ -11,9 +11,10 @@ shortcode: ziem
 type: skill
 subType: mystical
 pack: characteristics
+data:
+  templatePriority: 0
 sohl:
   kbcat: ritual
-  archetype: 0
   system:
     skillBaseFormula: sb(attr.wil, attr.rea)
     masteryLevelBase: 0

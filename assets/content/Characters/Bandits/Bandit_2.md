@@ -17,6 +17,7 @@ social:
   class: "Free"
   society: "Palithane"
 data:
+  templatePriority: 100
   gender: male
   age: 25
   birthday: 694/9/10
@@ -31,7 +32,6 @@ data:
     extra_features:
       - side braid hair
 sohl:
-  archetype: 100
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 14 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 14 } }

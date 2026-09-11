@@ -17,6 +17,7 @@ social:
   class: ""
   society: ""
 data:
+  templatePriority: 1
   gender: unknown
   age: 33
   birthday: 686/5/16
@@ -30,7 +31,6 @@ data:
     complexion: fair
     extra_features: []
 sohl:
-  archetype: 1
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 14 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 13 } }

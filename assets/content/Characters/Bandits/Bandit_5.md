@@ -17,6 +17,7 @@ social:
   class: "Free"
   society: "Palithane"
 data:
+  templatePriority: 100
   gender: unknown
   age: 43
   birthday: 676/12/5
@@ -32,7 +33,6 @@ data:
       - pixie-style cut hair
       - a tattoo of a horse on the thigh
 sohl:
-  archetype: 100
   items:
     - { shortcode: str, type: attribute, system: { scoreBase: 13 } }
     - { shortcode: end, type: attribute, system: { scoreBase: 10 } }

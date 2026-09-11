@@ -11,8 +11,9 @@ slug: hru
 img: systems/sohl/assets/icons/game-icons/delapouite/rock-golem.svg
 portrait: null
 type: being
+data:
+  templatePriority: 0
 sohl:
-  archetype: 0
   attrRollFormula:
     str: 1d6+47
     end: 1d6+37

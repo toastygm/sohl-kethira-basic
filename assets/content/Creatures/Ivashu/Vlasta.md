@@ -12,8 +12,9 @@ slug: vlasta
 img: systems/sohl/assets/icons/game-icons/lorc/bird-claw.svg
 portrait: null
 type: being
+data:
+  templatePriority: 0
 sohl:
-  archetype: 0
   attrRollFormula:
     str: 1d4+2
     end: 1d6+7

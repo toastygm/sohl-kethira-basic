@@ -11,8 +11,9 @@ slug: domorser
 img: systems/sohl/assets/icons/game-icons/lorc/wolf-head.svg
 portrait: null
 type: being
+data:
+  templatePriority: 0
 sohl:
-  archetype: 0
   attrRollFormula:
     str: 1d6+13
     end: 1d6+15

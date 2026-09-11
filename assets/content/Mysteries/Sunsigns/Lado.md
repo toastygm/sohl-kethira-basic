@@ -11,9 +11,10 @@ shortcode: lado
 type: mystery
 subType: birthsign
 pack: mysteries
+data:
+  templatePriority: 0
 sohl:
   kbcat: sunsign
-  archetype: 0
   system:
     charges:
       value: null
