@@ -32,48 +32,48 @@ data:
     extra_features: []
 sohl:
   items:
-    - { shortcode: str, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: end, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: dex, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: agl, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: per, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: cml, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: aur, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: wil, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: rea, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: cre, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: emp, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: elo, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: mor, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: voi, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: chrm, type: skill }
-    - { shortcode: cmd, type: skill }
-    - { shortcode: dscr, type: skill }
-    - { shortcode: guil, type: skill }
-    - { shortcode: intr, type: skill }
-    - { shortcode: thtcs, type: skill }
-    - { shortcode: srvl, type: skill }
-    - { shortcode: sing, type: skill }
-    - { shortcode: draw, type: skill }
-    - { shortcode: cook, type: skill }
-    - { shortcode: folklr, type: skill }
-    - { shortcode: pysn, type: skill }
-    - { shortcode: awar, type: skill }
-    - { shortcode: clmb, type: skill }
-    - { shortcode: dnce, type: skill }
-    - { shortcode: jump, type: skill }
-    - { shortcode: ridg, type: skill }
-    - { shortcode: stlth, type: skill }
-    - { shortcode: swim, type: skill }
-    - { shortcode: init, type: skill }
-    - { shortcode: shok, type: skill }
-    - { shortcode: melee, type: skill }
-    - { shortcode: dge, type: skill }
-    - { shortcode: archery, type: skill }
-    - { shortcode: thro, type: skill }
-    - { shortcode: fate, type: mysticalability }
-    - { shortcode: sprt, type: mysticalability }
-    - { shortcode: pence, type: miscgear }
+    - { model: attribute-str, system: { scoreBase: 10 } }
+    - { model: attribute-end, system: { scoreBase: 10 } }
+    - { model: attribute-dex, system: { scoreBase: 10 } }
+    - { model: attribute-agl, system: { scoreBase: 10 } }
+    - { model: attribute-per, system: { scoreBase: 10 } }
+    - { model: attribute-cml, system: { scoreBase: 10 } }
+    - { model: attribute-aur, system: { scoreBase: 10 } }
+    - { model: attribute-wil, system: { scoreBase: 10 } }
+    - { model: attribute-rea, system: { scoreBase: 10 } }
+    - { model: attribute-cre, system: { scoreBase: 10 } }
+    - { model: attribute-emp, system: { scoreBase: 10 } }
+    - { model: attribute-elo, system: { scoreBase: 10 } }
+    - { model: attribute-mor, system: { scoreBase: 10 } }
+    - { model: attribute-voi, system: { scoreBase: 10 } }
+    - { model: skill-chrm }
+    - { model: skill-cmd }
+    - { model: skill-dscr }
+    - { model: skill-guil }
+    - { model: skill-intr }
+    - { model: skill-thtcs }
+    - { model: skill-srvl }
+    - { model: skill-sing }
+    - { model: skill-draw }
+    - { model: skill-cook }
+    - { model: skill-folklr }
+    - { model: skill-pysn }
+    - { model: skill-awar }
+    - { model: skill-clmb }
+    - { model: skill-dnce }
+    - { model: skill-jump }
+    - { model: skill-ridg }
+    - { model: skill-stlth }
+    - { model: skill-swim }
+    - { model: skill-init }
+    - { model: skill-shok }
+    - { model: skill-melee }
+    - { model: skill-dge }
+    - { model: skill-archery }
+    - { model: skill-thro }
+    - { model: mysticalability-fate }
+    - { model: mysticalability-sprt }
+    - { model: miscgear-pence }
   system:
     body:
       structure:

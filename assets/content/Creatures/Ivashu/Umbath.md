@@ -22,13 +22,13 @@ sohl:
     rea: 1d6+10
     cre: 1d6+13
   items:
-    - { shortcode: aur, type: attribute, system: { scoreBase: 19 } }
-    - { shortcode: wil, type: attribute, system: { scoreBase: 12 } }
-    - { shortcode: rea, type: attribute, system: { scoreBase: 13 } }
-    - { shortcode: cre, type: attribute, system: { scoreBase: 16 } }
-    - { shortcode: init, type: skill, system: { masteryLevelBase: 65 } }
-    - { shortcode: sprt, type: mysticalability, system: { masteryLevelBase: 80 } }
-    - { shortcode: dge, type: skill, system: { masteryLevelBase: 70 } }
+    - { model: attribute-aur, system: { scoreBase: 19 } }
+    - { model: attribute-wil, system: { scoreBase: 12 } }
+    - { model: attribute-rea, system: { scoreBase: 13 } }
+    - { model: attribute-cre, system: { scoreBase: 16 } }
+    - { model: skill-init, system: { masteryLevelBase: 65 } }
+    - { model: mysticalability-sprt, system: { masteryLevelBase: 80 } }
+    - { model: skill-dge, system: { masteryLevelBase: 70 } }
   system:
     body:
       structure:

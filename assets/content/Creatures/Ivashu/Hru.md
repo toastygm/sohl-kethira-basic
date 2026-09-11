@@ -27,23 +27,23 @@ sohl:
     emp: 1d4+4
     elo: 1d4
   items:
-    - { shortcode: str, type: attribute, system: { scoreBase: 50 } }
-    - { shortcode: end, type: attribute, system: { scoreBase: 40 } }
-    - { shortcode: dex, type: attribute, system: { scoreBase: 8 } }
-    - { shortcode: agl, type: attribute, system: { scoreBase: 6 } }
-    - { shortcode: per, type: attribute, system: { scoreBase: 8 } }
-    - { shortcode: aur, type: attribute, system: { scoreBase: 6 } }
-    - { shortcode: wil, type: attribute, system: { scoreBase: 12 } }
-    - { shortcode: rea, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: cre, type: attribute, system: { scoreBase: 4 } }
-    - { shortcode: emp, type: attribute, system: { scoreBase: 6 } }
-    - { shortcode: elo, type: attribute, system: { scoreBase: 1 } }
-    - { shortcode: awar, type: skill, system: { masteryLevelBase: 30 } }
-    - { shortcode: init, type: skill, system: { masteryLevelBase: 55 } }
-    - { shortcode: shok, type: skill, system: { masteryLevelBase: 90 } }
-    - { shortcode: sprt, type: mysticalability, system: { masteryLevelBase: 27 } }
-    - { shortcode: stlth, type: skill, system: { masteryLevelBase: 21 } }
-    - { shortcode: dge, type: skill, system: { masteryLevelBase: 35 } }
+    - { model: attribute-str, system: { scoreBase: 50 } }
+    - { model: attribute-end, system: { scoreBase: 40 } }
+    - { model: attribute-dex, system: { scoreBase: 8 } }
+    - { model: attribute-agl, system: { scoreBase: 6 } }
+    - { model: attribute-per, system: { scoreBase: 8 } }
+    - { model: attribute-aur, system: { scoreBase: 6 } }
+    - { model: attribute-wil, system: { scoreBase: 12 } }
+    - { model: attribute-rea, system: { scoreBase: 10 } }
+    - { model: attribute-cre, system: { scoreBase: 4 } }
+    - { model: attribute-emp, system: { scoreBase: 6 } }
+    - { model: attribute-elo, system: { scoreBase: 1 } }
+    - { model: skill-awar, system: { masteryLevelBase: 30 } }
+    - { model: skill-init, system: { masteryLevelBase: 55 } }
+    - { model: skill-shok, system: { masteryLevelBase: 90 } }
+    - { model: mysticalability-sprt, system: { masteryLevelBase: 27 } }
+    - { model: skill-stlth, system: { masteryLevelBase: 21 } }
+    - { model: skill-dge, system: { masteryLevelBase: 35 } }
     - name: Kick
       type: skill
       system:
