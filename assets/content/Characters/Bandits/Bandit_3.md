@@ -32,57 +32,57 @@ data:
     extra_features: []
 sohl:
   items:
-    - { shortcode: str, type: attribute, system: { scoreBase: 11 } }
-    - { shortcode: end, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: dex, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: agl, type: attribute, system: { scoreBase: 13 } }
-    - { shortcode: per, type: attribute, system: { scoreBase: 11 } }
-    - { shortcode: cml, type: attribute, system: { scoreBase: 9 } }
-    - { shortcode: aur, type: attribute, system: { scoreBase: 16 } }
-    - { shortcode: wil, type: attribute, system: { scoreBase: 11 } }
-    - { shortcode: rea, type: attribute, system: { scoreBase: 12 } }
-    - { shortcode: cre, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: emp, type: attribute, system: { scoreBase: 12 } }
-    - { shortcode: elo, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: mor, type: attribute, system: { scoreBase: 9 } }
-    - { shortcode: voi, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: chrm, type: skill, system: { masteryLevelBase: 30 } }
-    - { shortcode: cmd, type: skill, system: { masteryLevelBase: 22 } }
-    - { shortcode: dscr, type: skill, system: { masteryLevelBase: 33 } }
-    - { shortcode: guil, type: skill, system: { masteryLevelBase: 55 } }
-    - { shortcode: intr, type: skill, system: { masteryLevelBase: 48 } }
-    - { shortcode: thtcs, type: skill, system: { masteryLevelBase: 10 } }
-    - { shortcode: srvl, type: skill, system: { masteryLevelBase: 33 } }
-    - { shortcode: sing, type: skill, system: { masteryLevelBase: 30 } }
-    - { shortcode: draw, type: skill, system: { masteryLevelBase: 10 } }
-    - { shortcode: cook, type: skill, system: { masteryLevelBase: 22 } }
-    - { shortcode: folklr, type: skill, system: { masteryLevelBase: 12 } }
-    - { shortcode: pysn, type: skill, system: { masteryLevelBase: 24 } }
-    - { shortcode: awar, type: skill, system: { masteryLevelBase: 55 } }
-    - { shortcode: clmb, type: skill, system: { masteryLevelBase: 60 } }
-    - { shortcode: dnce, type: skill, system: { masteryLevelBase: 60 } }
-    - { shortcode: jump, type: skill, system: { masteryLevelBase: 36 } }
-    - { shortcode: ridg, type: skill, system: { masteryLevelBase: 12 } }
-    - { shortcode: stlth, type: skill, system: { masteryLevelBase: 36 } }
-    - { shortcode: swim, type: skill, system: { masteryLevelBase: 12 } }
-    - { shortcode: init, type: skill, system: { masteryLevelBase: 44 } }
-    - { shortcode: shok, type: skill, system: { masteryLevelBase: 44 } }
-    - { shortcode: melee, type: skill, system: { masteryLevelBase: 55 } }
-    - { shortcode: dge, type: skill, system: { masteryLevelBase: 60 } }
-    - { shortcode: archery, type: skill, system: { masteryLevelBase: 11 } }
-    - { shortcode: thro, type: skill, system: { masteryLevelBase: 40 } }
-    - { shortcode: peoni, type: skill }
-    - { shortcode: masara, type: mystery }
-    - { shortcode: peoni, type: affiliation }
-    - { shortcode: fate, type: mysticalability }
-    - { shortcode: sprt, type: mysticalability }
-    - { shortcode: pence, type: miscgear, system: { quantity: 1 } }
-    - { shortcode: RhTunic, type: armorgear, system: { isWorn: true } }
-    - { shortcode: CShirt, type: armorgear, system: { isWorn: true } }
-    - { shortcode: CTrsr, type: armorgear, system: { isWorn: true } }
-    - { shortcode: RhShoe, type: armorgear, system: { isWorn: true } }
-    - { shortcode: HAxe, type: weapongear }
-    - { shortcode: RndSh, type: weapongear }
+    - { model: attribute-str, system: { scoreBase: 11 } }
+    - { model: attribute-end, system: { scoreBase: 10 } }
+    - { model: attribute-dex, system: { scoreBase: 10 } }
+    - { model: attribute-agl, system: { scoreBase: 13 } }
+    - { model: attribute-per, system: { scoreBase: 11 } }
+    - { model: attribute-cml, system: { scoreBase: 9 } }
+    - { model: attribute-aur, system: { scoreBase: 16 } }
+    - { model: attribute-wil, system: { scoreBase: 11 } }
+    - { model: attribute-rea, system: { scoreBase: 12 } }
+    - { model: attribute-cre, system: { scoreBase: 10 } }
+    - { model: attribute-emp, system: { scoreBase: 12 } }
+    - { model: attribute-elo, system: { scoreBase: 10 } }
+    - { model: attribute-mor, system: { scoreBase: 9 } }
+    - { model: attribute-voi, system: { scoreBase: 10 } }
+    - { model: skill-chrm, system: { masteryLevelBase: 30 } }
+    - { model: skill-cmd, system: { masteryLevelBase: 22 } }
+    - { model: skill-dscr, system: { masteryLevelBase: 33 } }
+    - { model: skill-guil, system: { masteryLevelBase: 55 } }
+    - { model: skill-intr, system: { masteryLevelBase: 48 } }
+    - { model: skill-thtcs, system: { masteryLevelBase: 10 } }
+    - { model: skill-srvl, system: { masteryLevelBase: 33 } }
+    - { model: skill-sing, system: { masteryLevelBase: 30 } }
+    - { model: skill-draw, system: { masteryLevelBase: 10 } }
+    - { model: skill-cook, system: { masteryLevelBase: 22 } }
+    - { model: skill-folklr, system: { masteryLevelBase: 12 } }
+    - { model: skill-pysn, system: { masteryLevelBase: 24 } }
+    - { model: skill-awar, system: { masteryLevelBase: 55 } }
+    - { model: skill-clmb, system: { masteryLevelBase: 60 } }
+    - { model: skill-dnce, system: { masteryLevelBase: 60 } }
+    - { model: skill-jump, system: { masteryLevelBase: 36 } }
+    - { model: skill-ridg, system: { masteryLevelBase: 12 } }
+    - { model: skill-stlth, system: { masteryLevelBase: 36 } }
+    - { model: skill-swim, system: { masteryLevelBase: 12 } }
+    - { model: skill-init, system: { masteryLevelBase: 44 } }
+    - { model: skill-shok, system: { masteryLevelBase: 44 } }
+    - { model: skill-melee, system: { masteryLevelBase: 55 } }
+    - { model: skill-dge, system: { masteryLevelBase: 60 } }
+    - { model: skill-archery, system: { masteryLevelBase: 11 } }
+    - { model: skill-thro, system: { masteryLevelBase: 40 } }
+    - { model: skill-peoni }
+    - { model: mystery-masara }
+    - { model: affiliation-peoni }
+    - { model: mysticalability-fate }
+    - { model: mysticalability-sprt }
+    - { model: miscgear-pence, system: { quantity: 1 } }
+    - { model: armorgear-rhtunic, system: { isWorn: true } }
+    - { model: armorgear-cshirt, system: { isWorn: true } }
+    - { model: armorgear-ctrsr, system: { isWorn: true } }
+    - { model: armorgear-rhshoe, system: { isWorn: true } }
+    - { model: weapongear-haxe }
+    - { model: weapongear-rndsh }
   system:
     body:
       structure:

@@ -26,24 +26,24 @@ sohl:
     emp: 1d4+1
     elo: 1d4
   items:
-    - { shortcode: str, type: attribute, system: { scoreBase: 24 } }
-    - { shortcode: end, type: attribute, system: { scoreBase: 18 } }
-    - { shortcode: dex, type: attribute, system: { scoreBase: 10 } }
-    - { shortcode: agl, type: attribute, system: { scoreBase: 8 } }
-    - { shortcode: per, type: attribute, system: { scoreBase: 7 } }
-    - { shortcode: aur, type: attribute, system: { scoreBase: 5 } }
-    - { shortcode: wil, type: attribute, system: { scoreBase: 14 } }
-    - { shortcode: rea, type: attribute, system: { scoreBase: 4 } }
-    - { shortcode: cre, type: attribute, system: { scoreBase: 2 } }
-    - { shortcode: emp, type: attribute, system: { scoreBase: 3 } }
-    - { shortcode: elo, type: attribute, system: { scoreBase: 2 } }
-    - { shortcode: awar, type: skill, system: { masteryLevelBase: 50 } }
-    - { shortcode: init, type: skill, system: { masteryLevelBase: 60 } }
-    - { shortcode: shok, type: skill, system: { masteryLevelBase: 88 } }
-    - { shortcode: sprt, type: mysticalability, system: { masteryLevelBase: 27 } }
-    - { shortcode: stlth, type: skill, system: { masteryLevelBase: 40 } }
-    - { shortcode: trak, type: skill, system: { masteryLevelBase: 25 } }
-    - { shortcode: dge, type: skill, system: { masteryLevelBase: 40 } }
+    - { model: attribute-str, system: { scoreBase: 24 } }
+    - { model: attribute-end, system: { scoreBase: 18 } }
+    - { model: attribute-dex, system: { scoreBase: 10 } }
+    - { model: attribute-agl, system: { scoreBase: 8 } }
+    - { model: attribute-per, system: { scoreBase: 7 } }
+    - { model: attribute-aur, system: { scoreBase: 5 } }
+    - { model: attribute-wil, system: { scoreBase: 14 } }
+    - { model: attribute-rea, system: { scoreBase: 4 } }
+    - { model: attribute-cre, system: { scoreBase: 2 } }
+    - { model: attribute-emp, system: { scoreBase: 3 } }
+    - { model: attribute-elo, system: { scoreBase: 2 } }
+    - { model: skill-awar, system: { masteryLevelBase: 50 } }
+    - { model: skill-init, system: { masteryLevelBase: 60 } }
+    - { model: skill-shok, system: { masteryLevelBase: 88 } }
+    - { model: mysticalability-sprt, system: { masteryLevelBase: 27 } }
+    - { model: skill-stlth, system: { masteryLevelBase: 40 } }
+    - { model: skill-trak, system: { masteryLevelBase: 25 } }
+    - { model: skill-dge, system: { masteryLevelBase: 40 } }
     - name: Claw
       type: skill
       system:
