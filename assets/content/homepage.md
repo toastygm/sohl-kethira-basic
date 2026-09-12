@@ -19,7 +19,7 @@ hardback or the PDF from Keléstia:
 
 The module requires the
 [Song of Heroic Lands](/sohl/) system for Foundry VTT.
-Install it from Foundry's **Add-on Modules → Install Module** screen, using this
+Install it from Foundry's **Add-on Modules > Install Module** screen, using this
 manifest URL:
 
 ```text
