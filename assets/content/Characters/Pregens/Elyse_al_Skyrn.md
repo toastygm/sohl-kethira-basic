@@ -1,7 +1,7 @@
 ---
 tags: []
 name:
-  full: Elýsè al Skýrn
+  full: Elýsè al Skýrn
   aliases: []
 id: Hxxja9eO46kDimGg
 packFolder: characters
@@ -594,7 +594,7 @@ sohl:
 | **Companions**             | Silent Talon               |
 | **Other obvious features** | None                       |
 
-Elýsè al Skýrn. I’m not much of a fighter, but if you’re wounded, I’m the one you want by your side. I’ve been trained in the healing arts—herbal remedies, potions, stitching wounds, all of that. My father and grandmother taught me everything they knew, and I’ve been learning more ever since. Traveling with this band gives me the chance to gather rare herbs and learn new techniques.
+Elýsè al Skýrn. I’m not much of a fighter, but if you’re wounded, I’m the one you want by your side. I’ve been trained in the healing arts—herbal remedies, potions, stitching wounds, all of that. My father and grandmother taught me everything they knew, and I’ve been learning more ever since. Traveling with this band gives me the chance to gather rare herbs and learn new techniques.
 
 Why a healer would join a mercenary band, you might ask? It’s simple, really—these men need someone to patch them up after battle. And for me, it’s about learning as much as I can before I open my own healing house one day. War’s not something I enjoy, but it brings patients to me, and it lets me help those who need it. I’m practical about it. We all need a place in this world, and mine is to mend what’s broken.
 
@@ -620,8 +620,8 @@ Why a healer would join a mercenary band, you might ask? It’s simple, really�
 
 **Enemies**: Those who seek to control her or exploit her knowledge.
 
-**Background**: Elýsè grew up as the daughter of an apothecary in a small Thaneman village. Her aptitude for healing and her natural charisma led to her being sent to study medicine and alchemy in Berema, Emélrenè. Despite her formal training and success, she grew restless, longing for more hands-on experience and the excitement of discovery. She soon joined the Silent Talon, where she provides critical medical support on missions. Her talents keep the team alive and thriving in the most dangerous situations. Due to a bad experience, she hides her true arcane skills; for most people, she simply identifies as a healer.
+**Background**: Elýsè grew up as the daughter of an apothecary in a small Thaneman village. Her aptitude for healing and her natural charisma led to her being sent to study medicine and alchemy in Berema, Emélrenè. Despite her formal training and success, she grew restless, longing for more hands-on experience and the excitement of discovery. She soon joined the Silent Talon, where she provides critical medical support on missions. Her talents keep the team alive and thriving in the most dangerous situations. Due to a bad experience, she hides her true arcane skills; for most people, she simply identifies as a healer.
 
-**Personality**: Elýsè is calm, resourceful, and empathetic, though she prefers to keep personal matters to herself. She is focused on her work, valuing knowledge and skill above all else, but she remains quietly wary of letting others too close. Recently, her relationship with Tórnis has added an unexpected layer of complexity to her life.
+**Personality**: Elýsè is calm, resourceful, and empathetic, though she prefers to keep personal matters to herself. She is focused on her work, valuing knowledge and skill above all else, but she remains quietly wary of letting others too close. Recently, her relationship with Tórnis has added an unexpected layer of complexity to her life.
 
-**Goals**: Elýsè’s primary goal remains the discovery of new alchemical recipes, medical remedies, and techniques.
+**Goals**: Elýsè’s primary goal remains the discovery of new alchemical recipes, medical remedies, and techniques.

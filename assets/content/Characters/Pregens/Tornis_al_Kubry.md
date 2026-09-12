@@ -1,7 +1,7 @@
 ---
 tags: []
 name:
-  full: Tórnis al Kúbrý
+  full: Tórnis al Kúbrý
   aliases: []
 id: QgVdOPUTxTLxEvBf
 packFolder: characters
@@ -616,7 +616,7 @@ I’m no great warrior, but I can handle myself if need be. I prefer to think of
 
 **Enemies**: Former comrades who betrayed him.
 
-**Background**: Tórnis is a mysterious figure with a past shrouded in secrecy. His true name is Calen, a former Triérzi outlaw who spent years operating with a brigand band along the Triérzon-Palíthanè border. Skilled in stealth, sabotage, and manipulation, he was known for his cunning but fled his former life after a betrayal within his group led to a bloody massacre. Since then, he has taken on the alias Tórnis al Kúbrý and now operates as a spy and infiltrator for the mercenary band. Talen is invaluable for his ability to gather intelligence, steal secrets, and neutralize threats without drawing attention. Tórnis has recently started developing real affection for Elýsè.
+**Background**: Tórnis is a mysterious figure with a past shrouded in secrecy. His true name is Calen, a former Triérzi outlaw who spent years operating with a brigand band along the Triérzon-Palíthanè border. Skilled in stealth, sabotage, and manipulation, he was known for his cunning but fled his former life after a betrayal within his group led to a bloody massacre. Since then, he has taken on the alias Tórnis al Kúbrý and now operates as a spy and infiltrator for the mercenary band. Talen is invaluable for his ability to gather intelligence, steal secrets, and neutralize threats without drawing attention. Tórnis has recently started developing real affection for Elýsè.
 
 **Personality**: Tórnis is charming and affable, able to blend into any crowd. However, beneath his smooth exterior lies a deeply cautious and calculating individual. He trusts no one completely, preferring to stay emotionally distant, though he maintains a friendly demeanour. His past haunts him, but he is determined never to let it define him.
 
