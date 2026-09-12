@@ -1,7 +1,7 @@
 ---
 tags: []
 name:
-  full: Kôris al Sýndalr
+  full: Kôris al Sýndalr
   aliases: []
 id: Nwxk1ehiccvUnhIZ
 packFolder: characters

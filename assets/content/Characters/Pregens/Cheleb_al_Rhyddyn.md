@@ -1,7 +1,7 @@
 ---
 tags: []
 name:
-  full: Chéleb al Rhýddyn
+  full: Chéleb al Rhýddyn
   aliases: []
 id: 0fPBy1GRPKfrjcs1
 packFolder: characters

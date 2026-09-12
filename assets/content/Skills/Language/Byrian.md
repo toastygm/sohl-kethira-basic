@@ -1,7 +1,7 @@
 ---
 tags: []
 name:
-  full: Býrian
+  full: Býrian
   aliases: []
 description: ""
 id: GOKBR8YjJPMz4XrM

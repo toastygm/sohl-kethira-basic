@@ -1,7 +1,7 @@
 ---
 tags: []
 name:
-  full: Fývria
+  full: Fývria
   aliases: []
 description: ""
 id: XNP6dybkONMzpEVF
