@@ -29,28 +29,28 @@ sohl:
     elo: 1d4+7
     mor: 1d4+4
   items:
-    - { shortcode: str, type: attribute, system: { scoreBase: 11 } }
-    - { shortcode: end, type: attribute, system: { scoreBase: 11 } }
-    - { shortcode: dex, type: attribute, system: { scoreBase: 12 } }
-    - { shortcode: agl, type: attribute, system: { scoreBase: 9 } }
-    - { shortcode: per, type: attribute, system: { scoreBase: 11 } }
-    - { shortcode: aur, type: attribute, system: { scoreBase: 7 } }
-    - { shortcode: wil, type: attribute, system: { scoreBase: 11 } }
-    - { shortcode: rea, type: attribute, system: { scoreBase: 9 } }
-    - { shortcode: cre, type: attribute, system: { scoreBase: 6 } }
-    - { shortcode: emp, type: attribute, system: { scoreBase: 5 } }
-    - { shortcode: elo, type: attribute, system: { scoreBase: 9 } }
-    - { shortcode: mor, type: attribute, system: { scoreBase: 6 } }
-    - { shortcode: awar, type: skill, system: { masteryLevelBase: 55 } }
-    - { shortcode: stlth, type: skill, system: { masteryLevelBase: 30 } }
-    - { shortcode: sprt, type: mysticalability, system: { masteryLevelBase: 27 } }
-    - { shortcode: init, type: skill, system: { masteryLevelBase: 50 } }
-    - { shortcode: dge, type: skill, system: { masteryLevelBase: 50 } }
-    - { shortcode: shok, type: skill, system: { masteryLevelBase: 55 } }
-    - { shortcode: srvl, type: skill, system: { masteryLevelBase: 33 } }
-    - { shortcode: anmcft, type: skill, system: { masteryLevelBase: 24 } }
-    - { shortcode: mtlc, type: skill, system: { masteryLevelBase: 66 } }
-    - { shortcode: mnrl, type: skill, system: { masteryLevelBase: 70 } }
+    - { model: attribute-str, system: { scoreBase: 11 } }
+    - { model: attribute-end, system: { scoreBase: 11 } }
+    - { model: attribute-dex, system: { scoreBase: 12 } }
+    - { model: attribute-agl, system: { scoreBase: 9 } }
+    - { model: attribute-per, system: { scoreBase: 11 } }
+    - { model: attribute-aur, system: { scoreBase: 7 } }
+    - { model: attribute-wil, system: { scoreBase: 11 } }
+    - { model: attribute-rea, system: { scoreBase: 9 } }
+    - { model: attribute-cre, system: { scoreBase: 6 } }
+    - { model: attribute-emp, system: { scoreBase: 5 } }
+    - { model: attribute-elo, system: { scoreBase: 9 } }
+    - { model: attribute-mor, system: { scoreBase: 6 } }
+    - { model: skill-awar, system: { masteryLevelBase: 55 } }
+    - { model: skill-stlth, system: { masteryLevelBase: 30 } }
+    - { model: mysticalability-sprt, system: { masteryLevelBase: 27 } }
+    - { model: skill-init, system: { masteryLevelBase: 50 } }
+    - { model: skill-dge, system: { masteryLevelBase: 50 } }
+    - { model: skill-shok, system: { masteryLevelBase: 55 } }
+    - { model: skill-srvl, system: { masteryLevelBase: 33 } }
+    - { model: skill-anmcft, system: { masteryLevelBase: 24 } }
+    - { model: skill-mtlc, system: { masteryLevelBase: 66 } }
+    - { model: skill-mnrl, system: { masteryLevelBase: 70 } }
     - name: Punch
       type: skill
       system:

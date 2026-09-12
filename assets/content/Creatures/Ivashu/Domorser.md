@@ -25,23 +25,23 @@ sohl:
     rea: 1d4+6
     cre: 1d4+4
   items:
-    - { shortcode: str, type: attribute, system: { scoreBase: 16 } }
-    - { shortcode: end, type: attribute, system: { scoreBase: 18 } }
-    - { shortcode: dex, type: attribute, system: { scoreBase: 8 } }
-    - { shortcode: agl, type: attribute, system: { scoreBase: 14 } }
-    - { shortcode: per, type: attribute, system: { scoreBase: 20 } }
-    - { shortcode: aur, type: attribute, system: { scoreBase: 12 } }
-    - { shortcode: wil, type: attribute, system: { scoreBase: 16 } }
-    - { shortcode: rea, type: attribute, system: { scoreBase: 8 } }
-    - { shortcode: cre, type: attribute, system: { scoreBase: 6 } }
-    - { shortcode: awar, type: skill, system: { masteryLevelBase: 90 } }
-    - { shortcode: clmb, type: skill, system: { masteryLevelBase: 55 } }
-    - { shortcode: init, type: skill, system: { masteryLevelBase: 60 } }
-    - { shortcode: shok, type: skill, system: { masteryLevelBase: 75 } }
-    - { shortcode: jump, type: skill, system: { masteryLevelBase: 75 } }
-    - { shortcode: sprt, type: mysticalability, system: { masteryLevelBase: 56 } }
-    - { shortcode: stlth, type: skill, system: { masteryLevelBase: 85 } }
-    - { shortcode: dge, type: skill, system: { masteryLevelBase: 85 } }
+    - { model: attribute-str, system: { scoreBase: 16 } }
+    - { model: attribute-end, system: { scoreBase: 18 } }
+    - { model: attribute-dex, system: { scoreBase: 8 } }
+    - { model: attribute-agl, system: { scoreBase: 14 } }
+    - { model: attribute-per, system: { scoreBase: 20 } }
+    - { model: attribute-aur, system: { scoreBase: 12 } }
+    - { model: attribute-wil, system: { scoreBase: 16 } }
+    - { model: attribute-rea, system: { scoreBase: 8 } }
+    - { model: attribute-cre, system: { scoreBase: 6 } }
+    - { model: skill-awar, system: { masteryLevelBase: 90 } }
+    - { model: skill-clmb, system: { masteryLevelBase: 55 } }
+    - { model: skill-init, system: { masteryLevelBase: 60 } }
+    - { model: skill-shok, system: { masteryLevelBase: 75 } }
+    - { model: skill-jump, system: { masteryLevelBase: 75 } }
+    - { model: mysticalability-sprt, system: { masteryLevelBase: 56 } }
+    - { model: skill-stlth, system: { masteryLevelBase: 85 } }
+    - { model: skill-dge, system: { masteryLevelBase: 85 } }
     - name: Bite
       type: skill
       system:
